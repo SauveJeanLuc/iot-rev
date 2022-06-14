@@ -43,5 +43,5 @@ if __name__ == '__main__':
             if line.find("cm") != -1:
                 print("Data to Print : "+line)
                 print("Data to Send : "+ line[0:line.find("cm")])
-                upload_data(line[0:line.find("cm")])
+                upload_data(line)
             # print("Integer value: "+int(line))
